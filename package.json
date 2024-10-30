@@ -1,0 +1,18 @@
+{
+  "name": "dicttransfer",
+  "version": "1.0.0",
+  "description": "a tool to build excel",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "excel"
+  ],
+  "author": "lch",
+  "license": "MIT",
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
