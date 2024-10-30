@@ -8,7 +8,8 @@ const filePath = path.join(__dirname, dictName); // 假设文件在当前目录�
 
 function transToString(trans) {
   return trans.map(item => {
-    return `${item.pos}.${item.tranCn}`
+    const pos = item.pos ? `[${item.pos}].` : '';
+    return `${pos}${item.tranCn}`
   }).join('; ')
 }
 
