@@ -1,4 +1,10 @@
-const dictName = process.argv[2];
+// 配置信息 start
+const CONFIG = {
+  "文件名称": "PEPXiaoXue5_2.json",
+}
+// 配置信息 end
+
+const dictName = CONFIG["文件名称"];
 const fs = require('fs');
 const path = require('path');
 const ExcelJS = require('exceljs');
